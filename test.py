@@ -14,7 +14,7 @@ class ObjectMask:
         self.output_video_path: str = output_video_path
         self.detection_engine: object = detection_engine
         """
-        A object detection object that locates the pedestrians and vehicles in the frame.
+        An object detection object that locates the pedestrians and vehicles in the frame.
         We assume it has the function:
         def run(frame: np.ndarry) -> List[np.ndarry]
         """
